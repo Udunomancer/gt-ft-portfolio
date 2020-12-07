@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-white">
+    <nav class="navbar navbar-expand-md navbar-light bg-white mb-5">
       <a class="navbar-brand mb-0 h1" href="index.html" id="nav-head"
         >Kyle Chriscoe</a
       >
@@ -46,33 +46,52 @@
       </div>
     </nav>
 
-    <main class="container bg-white">
-        <div class="row">
+    <main class="container">
+      <div class="row">
+        <div class="col-9 bg-white">
+          <div class="row">
             <div class="col-9">
-                <h1>Contact</h1>
+              <h1>Contact</h1>
             </div>
-        </div>
-        <div class="row">
+          </div>
+          <div class="row">
             <div class="col-9">
-                <form>
-                    <div class="form-group">
-                        <label for="inputName">Name</label>
-                        <input type="text" class="form-control" id="inputName" placeholder="Name">
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail">Email</label>
-                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <label for="inputMessage">Message</label>
-                        <textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+              <form>
+                <div class="form-group">
+                  <label for="inputName">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputName"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="inputEmail">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="inputMessage">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="inputMessage"
+                    placeholder="Message"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
             </div>
+          </div>
         </div>
+      </div>
     </main>
-    
+
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
