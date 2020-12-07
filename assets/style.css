@@ -1,19 +1,26 @@
+/* ===Redefining Bootstrap defaults=== */
+
+
+.btn {
+    border-radius: 0px;
+}
+
 body {
     background-image: url(images/background.png);
     background-repeat: repeat;
 }
 
-/*nav {
-    margin-bottom: 15px;
-}*/
-
-#nav-head {
+.bg-custom, .bg-custom:hover {
     background-color: #4AAAA5;
-    color: #ffffff;
-    padding-left: 3px;
-    padding-right: 3px;
+    border-color: #4AAAA5;
+}
+
+.bg-custom:active, .bg-custom:focus {
+    background-color: #184d4a !important;
+    border-color: #184d4a !important;
 }
 
 h1 {
     color: #4AAAA5;
 }
+
