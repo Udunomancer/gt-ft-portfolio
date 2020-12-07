@@ -1,3 +1,8 @@
+body {
+    background-image: url(images/background.png);
+    background-repeat: repeat;
+}
+
 #nav-head {
     background-color: #4AAAA5;
     color: #ffffff;
