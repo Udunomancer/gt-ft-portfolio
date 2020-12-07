@@ -3,6 +3,10 @@ body {
     background-repeat: repeat;
 }
 
+nav {
+    margin-bottom: 15px;
+}
+
 #nav-head {
     background-color: #4AAAA5;
     color: #ffffff;
