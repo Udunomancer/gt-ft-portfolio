@@ -1,6 +1,8 @@
 body {
     background-image: url(images/background.png);
     background-repeat: repeat;
+    width: 100%;
+    height: 100%;
 }
 
 #nav-head {
