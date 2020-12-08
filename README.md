@@ -26,4 +26,9 @@ This repository hosts my personal portfolio.  It includes the framework HTML, st
 
 ## <a name="credits"></a>Credits/Resources
 
+Referenced the following for styling Bootstrap styling options:
+* [StackOverflow question on NavBar alignment](https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items)
+* [Sticky Footer](https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/)
+* [StackOverflow question on text wrapping around image](https://stackoverflow.com/questions/49225505/how-to-make-text-wrap-around-image-with-bootstrap-4-without-float)
+
 ## <a name="license"></a>License
