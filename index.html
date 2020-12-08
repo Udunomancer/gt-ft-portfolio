@@ -8,6 +8,7 @@
     />
     <title>Kyle Chriscoe - About</title>
 
+    <!--Import Bootstrap CSS-->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
@@ -15,14 +16,20 @@
       crossorigin="anonymous"
     />
 
+    <!--Link custom css stylesheet-->
     <link rel="stylesheet" href="assets/style.css" />
   </head>
+
   <body>
+    <!--Header Content-->
     <header class="mb-4">
       <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+        <!--Main "Home Button" icon/link-->
         <a class="navbar-brand h1 text-white bg-custom px-1" href="index.html"
           >Kyle Chriscoe</a
         >
+
+        <!--Menu item drop-down used when navigation items collapsed-->
         <button
           class="navbar-toggler"
           type="button"
@@ -34,6 +41,8 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+
+        <!--Navigation items linking to all portfolio pages-->
         <div class="navbar-collapse collapse" id="navigationItems">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
@@ -52,19 +61,21 @@
       </nav>
     </header>
 
+    <!--Main page content-->
     <main role="main" class="container">
       <div class="row">
         <div class="col-md-9 bg-white py-3 mx-2">
+          <!--Section header-->
           <div class="row mx-2">
-            <!--m-3-->
             <div class="col-sm-12">
               <h1 class="border-bottom py-3"><strong>About Me</strong></h1>
             </div>
           </div>
+
+          <!--Section content-->
           <div class="row m-2 py-2">
             <div class="col-sm-12">
-              <!--https://stackoverflow.com/questions/49225505/how-to-make-text-wrap-around-image-with-bootstrap-4-without-float-->
-
+              <!--Image-->
               <img
                 src="assets/images/ralphina.jpg"
                 alt="Mountain Scene"
@@ -72,6 +83,7 @@
                 id="about-image"
               />
 
+              <!--Content-->
               <div class="single-post-content-wrapper p-2">
                 <p>
                   My name is Kyle Chriscoe. I am an currently enrolled in the
@@ -90,6 +102,7 @@
       </div>
     </main>
 
+    <!--Footer-->
     <footer class="footer border-top">
       <div class="container">
         <div class="row justify-content-md-center">
@@ -100,9 +113,7 @@
       </div>
     </footer>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    <!--Bootstrap JavaScript-->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -120,4 +131,3 @@
     ></script>
   </body>
 </html>
-<!--https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items-->
