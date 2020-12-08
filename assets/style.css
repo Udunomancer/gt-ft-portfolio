@@ -32,3 +32,8 @@ h1 {
     line-height: 60px;
   }
 
+#about-image {
+    max-width: 300px;
+
+}
+
