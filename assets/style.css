@@ -1,9 +1,13 @@
 /* ===Redefining Bootstrap defaults=== */
-
+html {
+    position: relative;
+    min-height: 100%;
+}
 
 body {
     background-image: url(images/background.png);
     background-repeat: repeat;
+    margin-bottom: 80px;
 }
 
 .bg-custom, .bg-custom:hover {
@@ -22,14 +26,26 @@ h1 {
 
 .footer {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
     height: 60px;
     line-height: 60px;
+    background-color: #666666;
   }
 
 #about-image {
     max-width: 300px;
-
 }
 
+body > .container {
+    padding: 60px 15px 0;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
